@@ -153,6 +153,7 @@
     margin-top: 105px;
     padding-top: 100px;
     padding-bottom: 65px;
+    margin-bottom: 163px;
 }
 .about__contact p{
     font-size: 20px;
@@ -175,8 +176,8 @@
 }
 .about__img{
     padding-left: 158px;
-    transition: 01.5s;
+    transition: 2.5s;
 }
 .about__content:hover img{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }

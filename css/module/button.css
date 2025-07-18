@@ -1,4 +1,4 @@
-.hero__button{
+.hero__button {
     width: 312px;
     height: 60px;
     background-color: transparent;
@@ -7,18 +7,23 @@
     margin-top: 52px;
     margin-bottom: 115px;
     transition: 0.5s;
+    cursor: pointer;
 }
-.hero__button a{
+
+.hero__button a {
     color: white;
     font-size: 22px;
 }
-.hero__button:hover{
+
+.hero__button:hover {
     background-color: white;
 }
-.hero__button:hover a{
+
+.hero__button:hover a {
     color: black;
 }
-.about__button{
+
+.about__button {
     width: 208px;
     height: 44px;
     background-color: transparent;
@@ -29,12 +34,47 @@
     cursor: pointer;
     transition: 0.7s;
 }
-.about__button a{
+
+.about__button a {
     color: black;
 }
-.about__button:hover{
+
+.about__button:hover {
     background-color: black;
 }
-.about__button:hover a{
+
+.about__button:hover a {
     color: white;
 }
+
+.section__button {
+    width: 208px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    font-size: 18px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.section__button a {
+    color: black;
+}
+
+.section__button:hover {
+    background-color: #2C67F6;
+    border: none;
+}
+
+.section__button:hover a {
+    color: white;
+}
+.section__button2:hover{
+    background-color: #2C67F6;
+    border: none;
+}
+.section__button:hover a{
+    color: white;
+}   
